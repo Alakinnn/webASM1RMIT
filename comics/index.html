@@ -1,0 +1,408 @@
+<!--  RMIT University Vietnam
+  Course: COSC2430 Web Programming
+  Semester: 2023A
+  Assessment: Assignment 1
+  Author: Duong Tran Minh Hoang
+  ID: s3978452
+  Acknowledgement: All works were original -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="util-padding-div">
+            <div class="header-primary">
+                <nav class="nav-menu">
+                    <div class="logo-text">
+                        <a href="../../../index.html">
+                            <h2 class="logo">bean.</h2>
+                        </a>
+                    </div>
+
+                    <!-- Desktop Header -->
+
+                    <div class="nav-item-list">
+                        <input class="search-bar" type="text" placeholder="Find Book Here...">
+                        <ul class="items">
+                            <li class="item">
+                                <h3><a href="../../../sidePages/formPage/index.html">Contact Us</a></h3>
+                            </li>
+                            <li class="item">
+                                <h3><a href="#">Cart</a></h3>
+                            </li>
+                            <li class="item">
+                                <h3><a href="#">Favorite</a></h3>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                    <!-- Mobile Hamburger -->
+                    <div class="hamburger">
+                        <div class="hamburger-btn">
+                            <a href="#" class="hamburger-menu-text">
+                                <span class="menu-letter">m</span>
+                                <span class="menu-letter">e</span>
+                                <span class="menu-letter">n</span>
+                                <span class="menu-letter">u</span>
+                            </a>
+
+                            <section class="hamburger-menu">
+                                <a href="../../../index.html" class="hamburger-item">Home</a>
+                                <a href="../../../sidePages/formPage/index.html" class="hamburger-item">Contact</a>
+                                <a href="#" class="hamburger-item">Cart</a>
+                                <a href="#" class="hamburger-item">Favorite</a>
+                            </section>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="welcome-text">
+            <div class="util-text-effect">
+                <p class="text-effect">
+                    comics are beyond entertainment
+                </p>
+            </div>
+        </div>
+
+        <video class="bg-video" autoplay muted loop>
+            <source src="./bg-video.mp4" type="video/mp4">
+        </video>
+    </header>
+
+
+
+    <main>
+        <section class="book-rows-main">
+            <a class="util-category" href="">
+                <h2>Mangas that explore the minds</h2>
+            </a>
+            <div class="book-row one">
+                <div class="book">
+                    <div class="book-cover-effect">
+                        <img src="./book/manga/prof-please-read-this-comic__book1.jpg" alt="book-image">
+                        <div class="tooltip">
+                            <a href="./book/manga/book1.html"><img src="../../../assets/heart-02-svgrepo-com (1).svg"
+                                    alt="favorite"></a>
+                            <a href="./book/manga/book1.html"><img src="../../../assets/cart-2-svgrepo-com.svg"
+                                    alt="cart"></a>
+                            <a href="./book/manga/book1.html"><img src="../../../assets/info-circle-svgrepo-com.svg"
+                                    alt="info"></a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <div class="info">
+                            <a href="./book/manga/book1.html" class="book-name">
+                                <h3 class="title">Vagabond vol. 1</h3>
+                            </a>
+                            <p class="author"><strong>Takehiko Inoue
+                                </strong></p>
+                            <h3 class="price-info"><span class="price off">249.99</span> <span
+                                    class="price">249.99</span>
+                            </h3>
+                        </div>
+                        <div class="btns">
+                            <button class="btn">Buy now </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book">
+                    <div class="book-cover-effect">
+                        <img src="./book/manga/book2.jpg" alt="book-image">
+                        <div class="tooltip">
+                            <a href="./book/manga/book2.html"><img src="../../../assets/heart-02-svgrepo-com (1).svg"
+                                    alt="favorite"></a>
+                            <a href="./book/manga/book2.html"><img src="../../../assets/cart-2-svgrepo-com.svg"
+                                    alt="cart"></a>
+                            <a href="./book/manga/book2.html"><img src="../../../assets/info-circle-svgrepo-com.svg"
+                                    alt="info"></a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <div class="info">
+                            <a href="./book/manga/book2.html" class="book-name">
+                                <h3 class="title">Berserk vol. 1</h3>
+                            </a>
+                            <p class="author"><strong>kentaro miura
+                                </strong></p>
+                            <h3 class="price-info"><span class="price off">49.99</span> <span class="price">50.00</span>
+                            </h3>
+                        </div>
+                        <div class="btns">
+                            <button class="btn">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book">
+                    <div class="book-cover-effect">
+                        <img src="./book/manga/book3.jpg" alt="book-image">
+                        <div class="tooltip">
+                            <a href="./book/manga/book3.html"><img src="../../../assets/heart-02-svgrepo-com (1).svg"
+                                    alt="favorite"></a>
+                            <a href="./book/manga/book3.html"><img src="../../../assets/cart-2-svgrepo-com.svg"
+                                    alt="cart"></a>
+                            <a href="./book/manga/book3.html"><img src="../../../assets/info-circle-svgrepo-com.svg"
+                                    alt="info"></a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <div class="info">
+                            <a href="./book/manga/book3.html" class="book-name">
+                                <h3 class="title">hell's paradise</h3>
+                            </a>
+                            <p class="author"><strong>yuji kaku</strong></p>
+                            <h3 class="price-info"><span class="price off">9.99</span> <span class="price">14</span>
+                            </h3>
+                        </div>
+                        <div class="btns">
+                            <button class="btn">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line-br"></div>
+            <a class="util-category" href="">
+                <h2>Dive in the world of superheroes</h2>
+            </a>
+            <div class="book-row two">
+                <div class="book">
+                    <div class="book-cover-effect">
+                        <img src="./book/superheroes/book4.jpg" alt="">
+                        <div class="tooltip">
+                            <a href="./book/superheroes/book4.html"><img
+                                    src="../../../assets/heart-02-svgrepo-com (1).svg" alt="favorite"></a>
+                            <a href="./book/superheroes/book4.html"><img src="../../../assets/cart-2-svgrepo-com.svg"
+                                    alt="cart"></a>
+                            <a href="./book/superheroes/book4.html"><img
+                                    src="../../../assets/info-circle-svgrepo-com.svg" alt="info"></a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <div class="info">
+                            <a href="./book/superheroes/book4.html" class="book-name">
+                                <h3 class="title">watchmen</h3>
+                            </a>
+                            <p class="author">by <strong>DC Comics
+                                </strong></p>
+                            <h3 class="price-info"><span class="price off">29.99</span> <span class="price">35.99</span>
+                            </h3>
+                        </div>
+                        <div class="btns">
+                            <button class="btn">Buy now </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book">
+                    <div class="book-cover-effect">
+                        <img src="./book/superheroes/book5.jpg" alt="">
+                        <div class="tooltip">
+                            <a href="./book/superheroes/book5.html"><img
+                                    src="../../../assets/heart-02-svgrepo-com (1).svg" alt="favorite"></a>
+                            <a href="./book/superheroes/book5.html"><img src="../../../assets/cart-2-svgrepo-com.svg"
+                                    alt="cart"></a>
+                            <a href="./book/superheroes/book5.html"><img
+                                    src="../../../assets/info-circle-svgrepo-com.svg" alt="info"></a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <div class="info">
+                            <a href="./book/superheroes/book5.html" class="book-name">
+                                <h3 class="title">batman year one</h3>
+                            </a>
+                            <p class="author">by <strong>DC Comics
+                                </strong></p>
+                            <h3 class="price-info"><span class="price off">9.99</span> <span class="price">14</span>
+                            </h3>
+                        </div>
+                        <div class="btns">
+                            <button class="btn">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book">
+                    <div class="book-cover-effect">
+                        <img src="./book/superheroes/book6.jpg" alt="">
+                        <div class="tooltip">
+                            <a href="./book/superheroes/book6.html"><img
+                                    src="../../../assets/heart-02-svgrepo-com (1).svg" alt="favorite"></a>
+                            <a href="./book/superheroes/book6.html"><img src="../../../assets/cart-2-svgrepo-com.svg"
+                                    alt="cart"></a>
+                            <a href="./book/superheroes/book6.html"><img
+                                    src="../../../assets/info-circle-svgrepo-com.svg" alt="info"></a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <div class="info">
+                            <a href="./book/superheroes/book6.html" class="book-name">
+                                <h3 class="title">Three Jokers</h3>
+                            </a>
+                            <p class="author">by <strong>DC Comics</strong></p>
+                            <h3 class="price-info"><span class="price off">9.99</span> <span class="price">14</span>
+                            </h3>
+                        </div>
+                        <div class="btns">
+                            <button class="btn">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line-br"></div>
+            <a class="util-category" href="">
+                <h2>Persophone and Hades undying love</h2>
+            </a>
+            <div class="book-row three">
+                <div class="book">
+                    <div class="book-cover-effect">
+                        <img src="./book/graphics/book7.jpg" alt="">
+                        <div class="tooltip">
+                            <a href="./book/graphics/book7.html"><img src="../../../assets/heart-02-svgrepo-com (1).svg"
+                                    alt="favorite"></a>
+                            <a href="./book/graphics/book7.html"><img src="../../../assets/cart-2-svgrepo-com.svg"
+                                    alt="cart"></a>
+                            <a href="./book/graphics/book7.html"><img src="../../../assets/info-circle-svgrepo-com.svg"
+                                    alt="info"></a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <div class="info">
+                            <a href="./book/graphics/book7.html" class="book-name">
+                                <h3 class="title">lore olympus vol. 1</h3>
+                            </a>
+                            <p class="author">by <strong>rachel smythe
+                                </strong></p>
+                            <h3 class="price-info"><span class="price off">16.99</span> <span class="price">20.00</span>
+                            </h3>
+                        </div>
+                        <div class="btns">
+                            <button class="btn">Buy now </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book">
+                    <div class="book-cover-effect">
+                        <img src="./book/graphics/book8.jpg" alt="">
+                        <div class="tooltip">
+                            <a href="./book/graphics/book8.html"><img src="../../../assets/heart-02-svgrepo-com (1).svg"
+                                    alt="favorite"></a>
+                            <a href="./book/graphics/book8.html"><img src="../../../assets/cart-2-svgrepo-com.svg"
+                                    alt="cart"></a>
+                            <a href="./book/graphics/book8.htmll"><img src="../../../assets/info-circle-svgrepo-com.svg"
+                                    alt="info"></a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <div class="info">
+                            <a href="./book/graphics/book8.html" class="book-name">
+                                <h3 class="title">lore olympus vol. 2</h3>
+                            </a>
+                            <p class="author">by <strong>rachel smythe
+                                </strong></p>
+                            <h3 class="price-info"><span class="price off">16.99</span> <span class="price">20.00</span>
+                            </h3>
+                        </div>
+                        <div class="btns">
+                            <button class="btn">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book">
+                    <div class="book-cover-effect">
+                        <img src="./book/graphics/book9.jpg" alt="">
+                        <div class="tooltip">
+                            <a href="./book/graphics/book9.html"><img src="../../../assets/heart-02-svgrepo-com (1).svg"
+                                    alt="favorite"></a>
+                            <a href="./book/graphics/book9.html"><img src="../../../assets/cart-2-svgrepo-com.svg"
+                                    alt="cart"></a>
+                            <a href="./book/graphics/book9.html"><img src="../../../assets/info-circle-svgrepo-com.svg"
+                                    alt="info"></a>
+                        </div>
+                    </div>
+                    <div class="book-info">
+                        <div class="info">
+                            <a href="./book/graphics/book9.html" class="book-name">
+                                <h3 class="title">lore olympus vol. 3</h3>
+                            </a>
+                            <p class="author">by <strong>rachel smythe</strong></p>
+                            <h3 class="price-info"><span class="price off">29.99</span> <span class="price">30.99</span>
+                            </h3>
+                        </div>
+                        <div class="btns">
+                            <button class="btn">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line-br"></div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <section class="main-content-footer">
+            <div class="logo-footer">
+                <div class="logo">
+                    <a href="../../../index.html">
+                        <h2 class="logo">bean.</h2>
+                    </a>
+                </div>
+                <div class="social">
+                    <a href="#"><img src="https://img.icons8.com/ios/50/000000/facebook-new.png" /></a>
+                    <a href="#"><img src="https://img.icons8.com/ios/50/000000/instagram-new.png" /></a>
+                    <a href="#"><img src="https://img.icons8.com/ios/50/000000/twitter.png" /></a>
+                </div>
+            </div>
+            <div class="link-footer">
+                <div class="util-column one">
+                    <a href="#">About Us</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Join Us</a>
+                </div>
+                <div class="util-column two">
+                    <a href="#">Terms</a>
+                    <a href="#">Copyright</a>
+                    <a href="#">Sitemap</a>
+                </div>
+                <div class="util-column three">
+                    <a href="#">Contact Us</a>
+                    <a href="#">Connect</a>
+                    <a href="#">Team</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="sub-content-footer">
+            <div class="sub-content-footer-right">
+                <p>© 2023 Bean. All rights reserved. Designed by <a href="#">Duong Tran Minh Hoang</a></p>
+            </div>
+        </section>
+    </footer>
+
+
+</body>
+
+</html>

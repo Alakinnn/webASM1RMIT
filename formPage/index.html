@@ -1,0 +1,187 @@
+<!--  RMIT University Vietnam
+  Course: COSC2430 Web Programming
+  Semester: 2023A
+  Assessment: Assignment 1
+  Author: Duong Tran Minh Hoang
+  ID: s3978452
+  Acknowledgement: All works were original -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="util-padding-div">
+            <div class="header-primary">
+                <nav class="nav-menu">
+                    <div class="logo-text">
+                        <a href="../index.html">
+                            <h2 class="logo">bean.</h2>
+                        </a>
+                    </div>
+
+                    <!-- Desktop Header -->
+
+                    <div class="nav-item-list">
+
+                        <ul class="items">
+                            <li class="item">
+                                <h3><a href="../index.html">Home</a></h3>
+                            </li>
+                            <li class="item">
+                                <h3><a href="#">Cart</a></h3>
+                            </li>
+                            <li class="item">
+                                <h3><a href="#">Favorite</a></h3>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                    <!-- Mobile Hamburger -->
+                    <div class="hamburger">
+                        <div class="hamburger-btn">
+                            <a href="#" class="hamburger-menu-text">
+                                <span class="menu-letter">m</span>
+                                <span class="menu-letter">e</span>
+                                <span class="menu-letter">n</span>
+                                <span class="menu-letter">u</span>
+                            </a>
+
+                            <section class="hamburger-menu">
+                                <a href="../index.html" class="hamburger-item">Home</a>
+                                <a href="./formPage/index.html" class="hamburger-item">Contact</a>
+                                <a href="#" class="hamburger-item">Cart</a>
+                                <a href="#" class="hamburger-item">Favorite</a>
+                            </section>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="container">
+        <h1>Contact Us</h1>
+        <div class="underline">
+        </div>
+        <div class="icon_wrapper">
+            <img src="./mail-svgrepo-com.svg" alt="">
+        </div>
+        <form action="#" method="post" class="contact_form">
+            <div class="name">
+                <label for="name"></label>
+                <input type="text" placeholder="Your name" name="name" id="name_input" required>
+            </div>
+            <div class="email">
+                <label for="email"></label>
+                <input type="email" placeholder="Your email" name="email" id="email_input" required>
+            </div>
+            <div class="telephone">
+                <label for="name"></label>
+                <input type="text" placeholder="Phone number" name="telephone" id="telephone_input" required>
+            </div>
+            <div class="subject">
+                <label for="subject"></label>
+                <select placeholder="Subject line" name="subject" id="subject_input" required>
+                    <option disabled hidden selected>Subject line</option>
+                    <option>I'd like to request a title</option>
+                    <option>I'd like to sell a book</option>
+                </select>
+            </div>
+
+            <div class="subject">
+                <label for="subject"></label>
+                <select placeholder="Subject line" name="subject" id="subject_input" required>
+                    <option disabled hidden selected>Contact Preference</option>
+                    <option>Phone</option>
+                    <option>Number</option>
+                </select>
+            </div>
+            <div class="message">
+                <label for="message"></label>
+                <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5"
+                    required></textarea>
+            </div>
+
+            <h3>Subscribe for promotion news?</h3>
+            <label>
+                <input type="radio" name="light" id="radio-answer" checked>
+                <span class="design"></span>
+                <span class="text">Yes</span>
+            </label>
+
+
+            <label>
+                <input type="radio" id="radio-answer" name="light">
+                <span class="design"></span>
+                <span class="text">No</span>
+            </label>
+
+
+            <div class="submit">
+                <div class="util-center-box">
+                    <a href="#" class="btn-send">Submit!</a>
+                </div>
+            </div>
+
+
+        </form><!-- // End form -->
+    </div><!-- // End #container -->
+
+    <footer>
+        <section class="main-content-footer">
+            <div class="logo-footer">
+                <div class="logo-text">
+                    <a href="../index.html">
+                        <h2 class="logo">bean.</h2>
+                    </a>
+                </div>
+                <div class="social">
+                    <a href="#"><img src="../assets/facebook-svgrepo-com.svg" alt="fb-logo" /></a>
+                    <a href="#"><img src="../assets/instagram-167-svgrepo-com.svg" alt="ins-logo" /></a>
+                    <a href="#"><img src="../assets/linkedin-svgrepo-com.svg" alt="linkedin-logo" /></a>
+                </div>
+            </div>
+            <div class="link-footer">
+                <div class="util-column one">
+                    <a href="#">About Us</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Join Us</a>
+                </div>
+                <div class="util-column two">
+                    <a href="#">Terms</a>
+                    <a href="#">Copyright</a>
+                    <a href="#">Sitemap</a>
+                </div>
+                <div class="util-column three">
+                    <a href="./formPage/index.html">Contact Us</a>
+                    <a href="#">Connect</a>
+                    <a href="#">Team</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="sub-content-footer">
+            <div class="sub-content-footer-right">
+                <p style="color: #fff;">© 2023 Bean. All rights reserved. Designed by <a
+                        href="mailto:s3978452@rmit.edu.vn">Duong Tran Minh
+                        Hoang</a></p>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>

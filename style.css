@@ -976,7 +976,7 @@ footer {
         transform: scale(1);
     }
 
-    .multi-media .two, .multi-media .four, .multi-media .six {
+    .multi-media .two, .multi-media .four, .multi-media .three h2, .multi-media .six {
         display: none;
     }
 

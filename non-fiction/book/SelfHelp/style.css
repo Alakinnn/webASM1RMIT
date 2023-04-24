@@ -5,7 +5,7 @@
   Author: Duong Tran Minh Hoang
   ID: s3978452
   Acknowledgement: All works were original content here */
-*, *::before, *::after {
+  *, *::before, *::after {
     box-sizing: border-box;
 }
 :root {
@@ -326,15 +326,16 @@ transition: all 400ms ease-out;
     }
     .util-responsive-image {
       flex-wrap: wrap;
+      height: max-content;
     }
     .main-image {
-      width: 100%;
+      width: fit-content;
     }
     .sub-image {
       flex-direction: row;
       width: 50%;
       margin-left: auto;
-      height: 20rem;
+      height: max-content;
       min-width: fit-content;
     }
     .btn-primary {
@@ -342,7 +343,18 @@ transition: all 400ms ease-out;
     }
 
     .book-side-info {
-      margin-top: 10rem;
+      margin-top: 12rem;
+      height: fit-content;
+      width: 100%;
+      gap: 1.5rem;
+    }
+
+    .book-generic-info {
+        flex-wrap: wrap;
+        height: 100vh;
+    }
+    .book-purchase {
+        width: max-content;
     }
   }
 

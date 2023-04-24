@@ -206,7 +206,8 @@ textarea {
 
 .util-center-box {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #radio-answer {
@@ -224,6 +225,9 @@ textarea {
 
     transition: transform 300ms ease,
                 box-shadow 300ms ease-in;
+}
+.btn-secondary {
+  padding: 0.8rem 1.5rem;
 }
 
 .btn-send:link, .btn-send:visited {
